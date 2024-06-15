@@ -85,6 +85,7 @@ const otpTemplate = (otp) => {
 		</div>
 	</body>
 	
+	
 	</html>`;
 };
 module.exports = otpTemplate;

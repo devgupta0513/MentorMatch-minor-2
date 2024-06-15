@@ -68,8 +68,8 @@ exports.courseEnrollmentEmail = (courseName, name) => {
     
     <body>
         <div class="container">
-            <a href=""><img class="logo" src="https://res.cloudinary.com/minor-linkus/image/upload/v1715960065/try/llpzsmpszt3dpk32882a.png"
-                    alt="MentorMatch Logo"></a>
+        <a href=""><img class="logo"
+        src="https://res.cloudinary.com/minor-linkus/image/upload/v1715960065/try/llpzsmpszt3dpk32882a.png" alt="MentorMatch Logo"></a>
             <div class="message">Course Registration Confirmation</div>
             <div class="body">
                 <p>Dear ${name},</p>
