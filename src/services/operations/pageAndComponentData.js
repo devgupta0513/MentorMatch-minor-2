@@ -16,6 +16,7 @@ export const getCatalogaPageData = async(categoryId,dispatch) => {
             response);
 
          result = response?.data;
+        //  console.log("RES>>>>>>",result);
 
   }
   catch(error) {
