@@ -56,6 +56,7 @@ exports.categoryPageDetails = async (req, res) => {
 		// Handle the case when the category is not found
 		if (!selectedCategory) {
 			console.log("Category not found.");
+	
 			return res
 				.status(404)
 				.json({ success: false, message: "Category not found" });
