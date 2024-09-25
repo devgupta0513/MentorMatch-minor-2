@@ -52,7 +52,7 @@ app.use("/api/v1/contact", require("./routes/ContactUs"));
 
 app.get("/", (req, res) => {
   res.status(200).json({
-    message: "Welcome to the API",
+    message: "Welcome to the API " ,
   });
 });
 
