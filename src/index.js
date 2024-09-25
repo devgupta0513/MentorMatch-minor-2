@@ -16,11 +16,11 @@ const store= configureStore({
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
     <Provider store={store}>
-    <HashRouter>
+    <BrowserRouter>
     <ScrollToTop/>
     <App />
     <Toaster/>
-    </HashRouter>
+    </BrowserRouter>
     </Provider>
 );
 swDev();
