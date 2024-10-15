@@ -25,7 +25,7 @@ exports.resetPasswordToken = async (req, res) => {
 		);
 		console.log("DETAILS", updatedDetails);
 
-		const url = `https://MentorMatch.fun/update-password/${token}`;
+		const url = `https://devgupta0513.github.io/MentorMatch-minor-2/update-password/${token}`;
 
 		await mailSender(
 			email,
