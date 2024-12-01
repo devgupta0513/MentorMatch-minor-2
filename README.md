@@ -1,4 +1,3 @@
-Here’s an expanded and highly detailed README for **MentorMatch**, explaining every functionality, module, and implementation in a simplified manner:
 
 ---
 
